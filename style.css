@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 6px;
+}
+
+.hero {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.one,
+.five {
+    background: #1F2937;
+    color: #E5E7EB;
+    padding: 0px 15vw;
+}
+
+.three {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20vw;
+}
+
+.four {
+    background-color: #3882f6;
+    margin: 75px 15vw;
+    display: flex;
+}
+
+.four div {
+    display: flex;
+    flex-direction: column;
+}
+
+.five {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header2 {
+    display: flex;
+    padding: 50px 0px;
+    gap: 25px;
+}
+
+.header-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.sig {
+    margin-block-start: -0.75em;
+    align-self: flex-end;
+    font-size: 18px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
