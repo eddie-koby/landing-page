@@ -40,6 +40,21 @@ button {
     font-size: 48px;
 }
 
+.header-col > p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.header-col > button {
+    margin-top: 10px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 50;
+}
+
 .one,
 .five {
     background: #1F2937;
@@ -109,4 +124,64 @@ button {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+}
+
+.image-placeholder-header {
+    display: flex;
+    height: auto;
+    width: 600px;
+    background-color: #E5E7EB;
+    flex-shrink: 0.5;
+}
+
+.image-placeholder-header > h4 {
+    color: darkgray;
+    text-align: center;
+    width: 100%;
+    align-self: center;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 75px;
+}
+
+.info {
+    max-width: 150px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+.image-placeholder {
+    width: 150px;
+    height: 150px;
+    background-color: #E5E7EB;
+    border-color: #3882f6;
+    display: flex;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    border-style: solid;
+    padding: 5px;
+}
+
+.image-placeholder > h4 {
+    color: darkgray;
+    text-align: center;
+    width: 100%;
+    align-self: center;
 }
